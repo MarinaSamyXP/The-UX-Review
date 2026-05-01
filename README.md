@@ -56,25 +56,22 @@ Assignment 4/
 * **Authors Section** – Showcases contributors
 * **Community Section** – Encourages user engagement
 
-```
 
 ## ⚙️ How to Run
 
 1. Clone the repository:
-
 ```
 git clone https://github.com/your-username/the-ux-review.git
 ```
 
 2. Open the project folder:
-
 ```
 cd the-ux-review
 ```
 
 3. Run the project:
+- Open `index.html` in your browser
 
-* Open `index.html` in your browser
 
 ## 📈 Future Improvements
 
