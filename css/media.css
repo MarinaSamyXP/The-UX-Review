@@ -1,0 +1,574 @@
+/* & Media Queries For Header Section */
+
+@media screen and (min-width: 576px) {
+  .header .image img {
+    height: 300px;
+  }
+  .content h3 span {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .navbar h1 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 23px;
+  }
+  .header .featured {
+    top: -15px;
+    right: -10px;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+  .content button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .image img {
+    height: 350px;
+  }
+  .content h2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header .container {
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .container .content {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .header .image {
+    align-self: center;
+    width: 50%;
+    margin-top: 60px;
+  }
+  .header .image img {
+    transform: rotate(3deg);
+    height: auto;
+  }
+  .header .featured {
+    top: -10px;
+    right: -25px;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .header .image img {
+    height: 400px;
+  }
+  .navbar .menu {
+    display: none;
+  }
+  .navbar .container .subscribe {
+    display: inline;
+  }
+  .navbar .container .links a {
+    display: inline;
+  }
+
+  .navbar .container .links i {
+    display: inline;
+  }
+  .content h3 span {
+    line-height: 1.3;
+    font-weight: 900;
+  }
+}
+
+/* & Media Queries For Latest Articles Section */
+@media screen and (min-width: 576px) {
+  .latest-articles .all-cards .card-content p {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .latest-articles .all-cards .card ul li {
+    display: flex;
+    gap: 150px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .heart-1 {
+    margin-left: 28px;
+  }
+  .heart-2 {
+    margin-left: 26px;
+  }
+  .heart-3 {
+    margin-left: 13px;
+  }
+  .latest-articles .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .latest-articles .title span {
+    display: inline;
+  }
+  .latest-articles .all-cards .card-content p {
+    font-size: 18px;
+  }
+  .latest-articles .cards .card h3 {
+    font-size: 35px;
+  }
+  .latest-articles .cards .card .num div h4 {
+    font-size: 18px;
+  }
+  .latest-articles .cards .card .num div p {
+    font-size: 14px;
+  }
+  .latest-articles .cards .card .num span {
+    font-size: 35px;
+  }
+  .latest-articles .cards .categories h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .latest-articles .container {
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+  .latest-articles .container .all-cards {
+    width: 70%;
+  }
+
+  .latest-articles .container .cards .card {
+    margin-block: 50px;
+  }
+
+  .latest-articles .cards .categories .category {
+    margin-bottom: 15px;
+  }
+
+  .latest-articles .cards .card .num {
+    margin-bottom: 22px;
+  }
+
+  .latest-articles .cards .card h3 {
+    margin: 25px 0px 20px;
+  }
+  .latest-articles .all-cards .card {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .latest-articles .all-cards .card .img {
+    width: 60%;
+    margin-top: 10px;
+  }
+  .latest-articles .all-cards .card .img img {
+    width: 160px;
+    height: 125px;
+    object-fit: cover;
+  }
+  .latest-articles .all-cards .card-content h4 {
+    font-size: 25px;
+  }
+  .latest-articles .all-cards .card ul li {
+    font-size: 14px;
+    gap: 100px;
+  }
+
+  .latest-articles .cards .categories .category {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  .latest-articles .title span {
+    font-size: 16px;
+    padding: 9px 16px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .latest-articles .cards .card {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .latest-articles .all-cards .card ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .latest-articles .all-cards .card ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .latest-articles .cards .card {
+    width: 400px;
+  }
+  .latest-articles .all-cards .card .img span {
+    right: 27px;
+    font-size: 11px;
+    padding: 4px 7px;
+  }
+  .latest-articles .all-cards .card ul li span {
+    display: inline;
+    margin-right: 5px;
+  }
+  .latest-articles .all-cards .card {
+    gap: 10px;
+  }
+  .heart-1,
+  .heart-2,
+  .heart-3 {
+    margin-left: 0px;
+  }
+}
+
+/* ^  Media Queries For Meet The Authors Section */
+@media screen and (min-width: 500px) {
+  .all-authors .author-card p {
+    font-size: 15px;
+    max-width: 500px;
+    margin-inline: auto;
+  }
+  .all-authors .author-card h4 {
+    font-size: 14px;
+  }
+  .author-card .inner span {
+    font-size: 12px;
+  }
+  .title-2 h2 {
+    font-size: 40px;
+  }
+  .title-2 p {
+    font-size: 17px;
+  }
+  .title-2 {
+    margin-bottom: 60px;
+  }
+  .title-2::after {
+    width: 120px;
+    height: 7px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .all-authors .author-card p {
+    /* font-size: 16px; */
+    max-width: 600px;
+  }
+  .all-authors .author-card img {
+    width: 120px;
+  }
+  .all-authors .author-card h3 {
+    font-size: 28px;
+  }
+  .all-authors .author-card h4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .author .all-authors {
+    flex-direction: row;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .all-authors .author-card {
+    width: 49%;
+    padding: 5px;
+  }
+  .all-authors .author-card p {
+    /* max-width: 700px; */
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .author .all-authors {
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .all-authors .author-card p {
+    max-width: 400px;
+    font-size: 17px;
+  }
+  .author .all-authors .auther-3 .inner {
+    padding: 22px 22px 45px;
+  }
+}
+
+/* & Media Query For Join The Rebellion Section */
+@media screen and (min-width: 500px) {
+  .join-the-rebellion .join-content h3 {
+    font-size: 30px;
+  }
+  .join-the-rebellion .join-content p {
+    font-size: 17px;
+    margin-bottom: 28px;
+  }
+  .join-the-rebellion .title-2 h2 {
+    font-size: 40px;
+  }
+  .join-the-rebellion .title-2 p {
+    font-size: 17px;
+  }
+  .join-the-rebellion .join-content .all div i {
+    font-size: 14px;
+  }
+  .join-the-rebellion .join-content .all div span {
+    font-size: 16px;
+    max-width: 500px;
+  }
+
+  .join-the-rebellion .join-content .all .fa-discord {
+    margin-top: 6px;
+  }
+  .join-the-rebellion .all-card h3 {
+    font-size: 27px;
+  }
+  .join-the-rebellion .all-card .card p,
+  h4 {
+    font-size: 16px;
+  }
+  .join-the-rebellion .all-card .card span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .join-the-rebellion .title-2 h2 {
+    font-size: 48px;
+  }
+  .join-the-rebellion .title-2 p {
+    font-size: 20px;
+  }
+  .join-the-rebellion .join-content h3 {
+    font-size: 36px;
+  }
+  .join-the-rebellion .join-content p {
+    font-size: 20px;
+    padding: 16px;
+  }
+  .join-the-rebellion .join-content .all div span {
+    font-size: 18px;
+    max-width: 600px;
+  }
+  .join-the-rebellion .all-card h3 {
+    font-size: 30px;
+  }
+  .join-the-rebellion .all-card .card p {
+    font-size: 18px;
+  }
+  .join-the-rebellion .all-card .card {
+    padding: 16px 16px 16px 20px;
+    margin-bottom: 28px;
+  }
+  .join-the-rebellion .all-card .card span {
+    font-size: 14px;
+  }
+  .join-the-rebellion .all-card .card h4 {
+    font-size: 18px;
+  }
+  .join-the-rebellion .join-content .butt {
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .join-the-rebellion .join {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .join-the-rebellion .join-content h3 {
+    max-width: 400px;
+    margin-bottom: 32px;
+  }
+  .join-the-rebellion .all-card h3 {
+    max-width: 300px;
+  }
+  .join-the-rebellion .join-content {
+    align-self: center;
+  }
+  .join-the-rebellion .join-content p {
+    margin-bottom: 32px;
+  }
+  .join-the-rebellion .join-content .all .one,
+  .two,
+  .three,
+  .four {
+    margin-bottom: 24px;
+  }
+  .join-the-rebellion .join-content .butt {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .join-the-rebellion .join-content h3 {
+    max-width: 600px;
+  }
+}
+
+/* ^ Media Query For Footer Section */
+@media screen and (min-width: 360px) {
+  .footer .last span a {
+    max-width: 90px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .footer .last span a {
+    font-size: 12px;
+    max-width: 100px;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .footer .last span a {
+    font-size: 14px;
+    max-width: 110px;
+  }
+  .footer-title p,
+  .footer .newsletter p,
+  .footer .categories-newsletter ul li a,
+  .footer .last p {
+    font-size: 16px;
+  }
+  .footer-title h2 {
+    font-size: 27px;
+  }
+  .footer-title i {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+  }
+  .footer .categories-newsletter h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .footer .last {
+    text-align: center;
+  }
+  .footer .last p {
+    margin: 0px auto 12px;
+  }
+  .footer .newsletter .but button {
+    font-size: 15px;
+    padding: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .categories-newsletter {
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer .newsletter {
+    width: 70%;
+  }
+
+  .footer .categories-newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .footer .newsletter .but button {
+    font-size: 18px;
+    padding: 16px;
+  }
+  .footer .newsletter p,
+  .footer .categories-newsletter ul li a {
+    margin-bottom: 24px;
+  }
+  .footer .newsletter button:nth-of-type(1) {
+    margin-bottom: 15px;
+  }
+  .footer .categories-newsletter ul {
+    margin-top: -3px;
+  }
+  .footer-title p,
+  .footer .newsletter p,
+  .footer .categories-newsletter ul li a,
+  .footer .last p {
+    font-size: 18px;
+  }
+  .footer .last span a {
+    font-size: 15px;
+    max-width: 125px;
+  }
+  .footer-title h2 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .footer .categories-newsletter h3 {
+    font-weight: 900px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer .container .all {
+    display: flex;
+    gap: 45px;
+  }
+  .footer .footer-title,
+  .newsletter {
+    width: 60%;
+  }
+  .footer .footer-title p,
+  .footer .newsletter p {
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .footer .footer-title {
+    margin-top: 30px;
+  }
+  /* .footer .last span a {
+    font-size: 16px;
+    max-width: 128px;
+  } */
+  .footer .last p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .footer .footer-title p {
+    max-width: 470px;
+  }
+
+  .footer .last .last-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .last p {
+    margin-inline: 0px;
+  }
+  .footer .container .all {
+    gap: 0px;
+  }
+  .footer .categories-newsletter {
+    gap: 80px;
+  }
+}
